@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
-  get 'employees/index'
-
   root 'employees#index'
+  get 'employees/index'
 
   get 'example' => 'example#index'
 
